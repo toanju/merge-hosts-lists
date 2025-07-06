@@ -1,0 +1,6 @@
+hosts_lists:
+  - name: stevenblack
+    url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+    begin_marker: "# Start StevenBlack"
+  - name: hagezi_pro
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
