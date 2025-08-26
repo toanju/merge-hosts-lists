@@ -3,7 +3,7 @@ FROM docker.io/alpine:3.22.1@sha256:4bcff63911fcb4448bd4fdacec207030997caf25e9be
 # renovate: datasource=repology depName=alpine_3_22/curl
 ENV CURL_VERSION="8.14.1-r1"
 # renovate: datasource=repology depName=alpine_3_22/yq-go
-ENV YQ_GO_VERSION="4.46.1-r0"
+ENV YQ_GO_VERSION="4.46.1-r1"
 
 RUN apk --no-cache add \
     curl=${CURL_VERSION} \
