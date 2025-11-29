@@ -3,4 +3,8 @@ hosts_lists:
     url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
     begin_marker: "# Start StevenBlack"
   - name: hagezi_pro
-    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt
+  - name: hagezi_tif
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+  - name: firebog_adguard
+    url: https://v.firebog.net/hosts/AdguardDNS.txt
